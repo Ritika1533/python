@@ -29,7 +29,7 @@ print(str6.capitalize()) # dosen't chnge in orignial string
 print(str6.find('am')) #return index first time occurrance
 print(str6.count('coder')) # count the occurrance
 
-# condition
+#  condition
 age=21
 if(age>=18):
     print("can apply for licance")
