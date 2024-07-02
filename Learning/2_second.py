@@ -12,7 +12,7 @@ print(len(str2))
 
 #indexing
 print(str1[0])
-#can not assign value in python str1[3]='b' : not allowed
+#can  not assign value in python str1[3]='b' : not allowed
 
 #slicing format ==> str[starting_indx : ending_indx] (ending index no included)
 str4=str1[5:23]
