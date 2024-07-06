@@ -60,7 +60,7 @@ print(sum)
 #QUESTION7 : finf factorial of n
 j=1
 fact=1
-while(j<=5term):
+while(j<=term):
     fact=fact*j
     j+=1
 print(fact)
