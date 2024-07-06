@@ -15,7 +15,9 @@ class Student:
         print("hello",self.name)
     def getMarks(self):
         return self.marks
-
+    @staticmethod
+    def hello():
+        print("hello everyone")
 #OBJECT
 #self : object that we created
 s1=Student("ritika",89)
@@ -25,6 +27,7 @@ print(s2.name)
 print(s2.collage)
 s2.greet()
 print(s2.getMarks())
+s2.hello()
 """
 <__main__.Student object at 0x000001E0CAD05AF0> print(self)
 i am a constructor
